@@ -19,12 +19,19 @@ word2vec-tensorflow/
 │   │   └── scaling_utils.py       # Scaling utilities for large datasets
 │   └── train.py       # Main training script
 ├── checkpoints/       # Model checkpoints (git-ignored)
+├── examples/          # Example usage scripts
+│   └── word2vec_demo.py           # Demo script
 ├── outputs/           # Output files (embeddings, visualizations)
-├── tests/             # Test scripts
+├── tests/             # Unit tests
 ├── docs/              # Documentation
-├── .gitignore        # Git ignore file
-├── setup.py          # Package installation file
-└── README.md         # This file
+│   └── presentations/ # Presentations and slides
+├── models/            # Saved model files
+├── logs/              # TensorBoard logs
+├── .gitignore         # Git ignore file
+├── requirements.txt   # Project dependencies
+├── setup.py           # Package installation file
+├── run_tests.py       # Test runner script
+└── README.md          # This file
 ```
 
 ## ✨ Features
